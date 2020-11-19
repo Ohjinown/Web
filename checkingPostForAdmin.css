@@ -1,0 +1,18 @@
+.text {
+  text-align: center;
+}
+/* 게시물 삭제 게시물 수정class 명*/
+.text1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.text1 button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* 뒤로가기*/
+.but1 {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}

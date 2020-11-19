@@ -1,0 +1,42 @@
+<?php
+session_start();
+$idvalue = $_SESSION['idForHyun0421'];
+if ($idvalue != 1234){
+echo "<script>alert('잘못된 접근입니다.');</script>";
+echo("<script>location.href='index.php';</script>");
+}
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr"  data-dark="false" data-useragent="Mozilla/5.0 (Linux; Android5.0; SM-G900p Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/85.0.4183.83 Mobile Safari/537.36 Edg/85.0.564.44">
+  <head>
+    <meta charset="utf-8">
+    <title>공지글 등록</title>
+    <link rel="stylesheet" href="newPost.css">
+    <meta property="og:type" content="website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=600","height=600" >
+    <meta name="robots" content="index,nofollow">
+  </head>
+  <body>
+    <form method="POST" action="newPost.php">
+      <div class="post">
+        <label>게시글명 &nbsp <input type="text" autocomplete="off" name = "postName" required >
+        </label>
+        <h5>게시글명은 띄어쓰기 하시면 안됩니다</h5>
+      </div>
+      <div class="text">
+          <h1>내용</h1>
+      </div>
+      <div class="Enrollment">
+        <textarea name="context" rows="8" cols="40" required> </textarea>
+      </div>
+      <div class="all">
+        <button type="submit" name="button">등록</button>
+        <button type="button" name="button" onclick="history.back(-1);">취소</button>
+      <!--<input type ="submit", value = "등록"/>
+      <input type="button" value="취소" onclick="history.back(-1);"> -->
+    </div>
+    </form>
+  </body>
+</html>

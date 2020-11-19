@@ -1,0 +1,43 @@
+body {
+margin-top: 40px;
+}
+
+table {
+  font-family: 'Note sans KR', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.im {
+  background-color: black;
+}
+/* 스튜디오반*/
+/* .loginup h1 {
+  font-size: 32px; color: #000000;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+.loginup h2 {
+  font-size: 32px; color: #000000;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* font-weight: bolder; */
+}
+.but {
+  width: auto;
+  width: auto;
+  margin-top: 5px;
+  text-align: center;
+  padding-left: 200px;
+}
+.but button{
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}

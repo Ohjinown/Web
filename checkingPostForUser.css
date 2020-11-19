@@ -1,0 +1,24 @@
+.img {
+  background-color: black;
+}
+/*
+body{
+  background-color: #808080;
+
+} */
+
+.but{
+  padding-right: 100px;
+}
+.but button{
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.but1 {
+  margin-top: -26px;
+  padding-left: 100px;
+}
+.but1 button{
+    font-size: 15px;
+}
