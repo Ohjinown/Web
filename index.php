@@ -39,8 +39,8 @@ Chrome/85.0.4183.83 Mobile Safari/537.36 Edg/85.0.564.44">
                 <button id="login"type="submit" value="POST">Log in</button>
             </div>
             <div class="btn-area1">
-                <!-- <button id="signup"type="button" onclick="location.href='loginup.php'">Sign up</button> -->
-                <button id="signup"type="button" onclick="alert('지금은 회원가입이 안됩니다')">Sign up</button>
+                <button id="signup"type="button" onclick="location.href='loginup.php'">Sign up</button>
+                <!--<button id="signup"type="button" onclick="alert('지금은 회원가입이 안됩니다')">Sign up</button>-->
 
             </div>
         </form>
